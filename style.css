@@ -1,0 +1,68 @@
+body {
+  background-color: #111;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+canvas {
+  background-color: #333;
+  border: 3px solid white;
+}
+
+
+#creator_game {
+  position: fixed;
+  bottom: 1px;
+  left: 1px;
+  background: rgba(0,0,0,0.7);
+  color: lime;
+  font-family: monospace;
+  padding: 10px;
+  border-radius: 8px;
+  width: 240px;
+  font-size: 14px;
+}
+
+img {
+  width: 48px;
+  height: 48px;
+}
+
+
+button {
+  position: fixed;
+  padding: 10px;
+  bottom: 1px;
+  right: 1px;
+  z-index: 2;
+}
+
+
+#debug-console {
+  position: fixed;
+  top: 0px;
+  left: 1px;
+  background: rgba(0,0,0,0.7);
+  color: lime;
+  font-family: monospace;
+  padding: 10px;
+  border-radius: 8px;
+  width: 240px;
+  font-size: 14px;
+}
+
+#debug-console2 {
+  position: fixed;
+  top: 1px;
+  right: 1px;
+  background: rgba(0,0,0,0.7);
+  color: lime;
+  font-family: monospace;
+  padding: 10px;
+  border-radius: 8px;
+  width: 240px;
+  font-size: 14px;
+}
